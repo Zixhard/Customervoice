@@ -2,17 +2,17 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=35.240.132.242;dbname=quality',
+    /*'dsn' => 'mysql:host=localhost;dbname=quality',
     'username' => 'ww_quality',
     'password' => 'webqualityprod2018',
-    /*'username' => 'root',
-    'password' => 'monster',*/
-    'charset' => 'utf8',
-
-    /*'dsn' => 'mysql:host=10.77.170.220;dbname=quality',
-    'username' => 'ww_quality',
-    'password' => 'webqualityprod2018',
+    'username' => 'root',
+    'password' => 'monster',
     'charset' => 'utf8',*/
+
+    'dsn' => 'mysql:host=10.77.170.220;dbname=quality',
+    'username' => 'ww_quality',
+    'password' => 'webqualityprod2018',
+    'charset' => 'utf8',
 
     // Schema cache options (for production environment)
     //'enableSchemaCache' => true,
