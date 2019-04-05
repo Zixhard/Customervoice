@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=quality',
+    'dsn' => 'mysql:host=35.240.132.242;dbname=quality',
     'username' => 'ww_quality',
     'password' => 'webqualityprod2018',
     /*'username' => 'root',
